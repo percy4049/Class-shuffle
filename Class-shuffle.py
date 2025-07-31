@@ -1,10 +1,10 @@
 import random
-males = ["Nam Anh", "Minh Dương", "Lân Hoàng", "Xuân Hùng", "Quảng Huy", "An Huy", "Nguyên Khánh", "Bảo Lâm", "Hoàng Minh", "Ích Tuệ", "Gia Vinh"]
-females = ["Vi An", "Hà Anh", "Thùy Dương", "Thanh Hà", "Khánh Huyền", "Minh Khuê", "Bảo Lan", "Khánh Ngọc", "Thảo Nguyên", "Uyển Nhi", "Minh Thư", "Khánh Trang", "Hà Uyên", "Khánh Vân"]
-team1 = ["Trí Đức"]
-team2 = ["Anh Dũng"]
-team3 = ["Gia Bình"]
-team4 = ["Ngân Thi"]
+males = [] #male members without leaders
+females = [] #female members without leaders
+team1 = ["leader1"]
+team2 = ["leader2"]
+team3 = ["leader3"]
+team4 = ["leader4"]
 random.shuffle(males)
 random.shuffle(females)
 team_sizes = [7, 7, 7, 8]
